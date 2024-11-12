@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const url = "http://localhost:3001" // Use the dynamically fetched URL
+const url = "http://bookserver-service.default.svc.cluster.local:3001" // Use the dynamically fetched URL
 console.log("This is the URL:", url);
 
 function App() {
